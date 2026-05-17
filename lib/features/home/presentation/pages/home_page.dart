@@ -1,3 +1,4 @@
+import 'package:bloc_weather_app/features/home/presentation/widgets/home_next_week.dart';
 import 'package:bloc_weather_app/features/home/presentation/widgets/home_search.dart';
 import 'package:bloc_weather_app/features/home/presentation/widgets/home_top.dart';
 import 'package:flutter/material.dart';
@@ -16,6 +17,8 @@ class HomePage extends StatelessWidget {
             HomeTop(),
             SizedBox(height: 20.h),
             HomeSearch(),
+            SizedBox(height: 20.h),
+            HomeNextWeek(),
           ],
         ),
       ),
